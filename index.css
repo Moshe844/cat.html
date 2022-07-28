@@ -1,0 +1,128 @@
+@media only screen and (max-width:500px) {
+body {
+    font-size: 15px;
+    font-family: fantasy;
+    background-color: lightblue;
+}
+}
+
+label {
+    display: block;
+    margin:  .5rem 0;
+    
+}
+.menu {
+    margin-right: 35%;
+    padding: 60px;
+    
+    
+    
+}
+/* #form {
+  visibility: hidden;
+} */
+.register {
+    max-width: 500px;
+    min-width: 300px;
+    width: 60vw;
+    padding: 200px;
+    margin: auto;
+}
+
+.field {
+    background-color: gray;
+}
+    
+    
+
+.one {
+    margin:10px 0;
+    width:100%;
+    
+}
+/* .canvas {
+    width:500px;
+    height:600px;
+    background-color:#4d0f00;
+}
+.frame {
+    width:500px;
+    border: 50px solid yellow;
+} */
+
+.one:hover {
+    background-color: lightblue;
+}
+
+
+#message {
+    display:none;
+  background: #f1f1f1;
+  color: #000;
+  position: relative;
+  padding: 20px;
+  margin-top: 10px;
+}
+#message p {
+    padding: 10px 35px;
+    font-size: 18px;
+  }
+  .valid {
+    color: green;
+  }
+  
+  .valid:before {
+    position: relative;
+    left: -35px;
+    content: "✔";
+  }
+  .invalid {
+    color: red;
+  }
+  
+  .invalid:before {
+    position: relative;
+    left: -35px;
+    content: "✖";
+  }
+  /* #togglePassword {
+    margin-left: -30px; 
+    cursor: pointer;
+  } */
+  #psw {
+    border: none;
+    outline: none;
+    padding: 3px;
+    
+    
+
+  }
+ 
+
+  #psw {
+    padding: 3px;
+    padding-left: 20px;
+
+  }
+#hide {
+    display: none;
+  }
+#test i{
+  position: absolute;
+ margin: 4px;
+ margin-left:140px;
+  
+}
+
+/* .blink {
+  animation: blinker 0.6s linear infinite;
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }} */
+
+  #cool {
+    width: 200px;
+    height: 175px;
+  }

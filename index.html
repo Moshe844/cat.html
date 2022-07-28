@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+</head>
+<body>
+    <h1 id="heading">all abount sports</h1>
+    <img id="cool" src="intro-1647872367.jpg"  onclick="changeImage();">
+
+    <a id="whisper" href="four_voices_whispering_2_wecho-6755.mp3">what are they whispering</a>
+
+  
+    <!-- <button id="clicker">click here</button> -->
+    <h1> Shabbos is in <span id="countdown">100</span> seconds! </h1>
+    
+    <form id="form" class="menu" action="#">
+        <fieldset>
+            <legend>Do you like salads or sauce?</legend>
+       <label><input type="radio" input name="salads-sauce">salads</label>
+       <label><input type="radio" input name="salads-sauce">sauce</label>
+        </fieldset>
+        <fieldset>
+            <legend>What kind of drinks do you like</legend>
+            <label><input id="cappuccino" type="checkbox" input name="cappuccino-coffee">cappuccino</label>
+            <label><input id="coffee" type="checkbox" input name="cappuccino-coffee">coffee</label>
+        </fieldset>
+       <input type="text" name="susi" placeholder="Susi" required>
+       <button  type="submit">Submit</button><br><br>
+       
+       <a class="email" href="mailto:mekstein@fidelitypayment.com">mekstein@fidelitypayment.com</a>
+    
+    </form>
+    <form  class="register" action="#">
+        <fieldset class="field">
+          <label>Enter Your First Name:<input class="one" type="text" name="first-name" required/></label>  
+          <label>Enter Your Last Name:<input class="one" type="text" name="last-name" required/></label>  
+          <label>Your Email Address:<input class="one" type="email" name="email" placeholder="name@eg.com" required/></label>  
+          <label id="test" for="psw">Password
+            <i class="fa fa-eye" id="show" onclick="myFunction()"></i>
+            <i class="fa fa-eye-slash" id="hide" onclick="myFunction()"></i>
+              <input  type="password" id="psw" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title=" characters" required/>
+              </label>
+        </div>
+        
+        </fieldset>
+        <div id="message">
+            <h3>Password must contain the following:</h3>
+            <p id="letter" class="invalid">A <b>lowercase</b> letter</p>
+            <p id="capital" class="invalid">A <b>capital (uppercase)</b> letter</p>
+            <p id="number" class="invalid">A <b>number</b></p>
+            <p id="length" class="invalid">Minimum <b>8 characters</b></p>
+          </div>
+        <fieldset class="field">
+            <label>Upload an image:<input type="file" /></input></label>
+            <label>Input your age(years):<input type="number" min="17" max="85"></label>
+        </fieldset>
+        <fieldset></fieldset>
+        <button id="btn" type="submit">Submit</button>
+    </form>
+
+    
+    <!-- <div class="frame">
+        <div class="canvas"> -->
+    </div>
+    <p  id="para">Some text here</p>
+  <button  onclick="switchColor('brown');">brown</button>
+  <button  onclick="switchColor('blue');">blue</button>
+  <button  onclick="switchColor('pink');">pink</button>
+    
+      <script src="index.js"></script>
+</body>
+</html>
+
+
+
